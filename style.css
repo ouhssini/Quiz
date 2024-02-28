@@ -93,6 +93,8 @@ font-weight: 500;
     transition-duration: 0.5s;
     position: relative;
 }
+
+
 .box:hover {
     transform: scale(1.02);
     -webkit-transform: scale(1.02);
@@ -105,6 +107,16 @@ font-weight: 500;
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
+}
+
+@media screen and (max-width:768px) {
+    .box {
+        min-height: 100px;
+    }
+    .box label {
+        font-size: 18px;
+    }
+    
 }
 
 .box.correct::after {

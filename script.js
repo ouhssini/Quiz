@@ -110,7 +110,7 @@ function displayResult() {
            </div>`;
   // afficher les resultat dans le contenir
   container.innerHTML = resultHTML;
-  goback.innerHTML = `<a href="/" class="btn btn-primary">Go back </a>`;
+  goback.innerHTML = `<a href="https://ouhssini.github.io/Quiz/" class="btn btn-primary">Go back </a>`;
 }
 
 // fonction de demmarage de quizze
